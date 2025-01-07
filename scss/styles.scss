@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+    background: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: violet;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+span {
+    color: grey;
+}
+
+.subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: grey;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+    }
+    button:hover {
+        background: #2a2a2a;
+    }
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
+//mainheader 
+#mainheader {
+    background: url("/images/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar {
+        .logo {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        ul {
+            margin-top: 2rem;
+            display: flex;
+        }
+        li {
+            display: inline-block;
+            margin-left: 1rem;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    #showcase {
+        .container {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .showcase-text { 
+            padding-bottom: 5rem;
+            .title {
+                font-size: 7rem;  
+                margin-top: 9rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
+//aoubt
+#about {
+    margin-top: 7rem;
+     margin-bottom: 10rem;
+    p {
+        line-height: 30px;
+        text-align: center;
+    }
+    .about-flex {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10rem;
+        gap: 150px;
+        h1 {
+            margin-bottom: 2rem;
+            font-size: 4rem;
+        }
+        h4 {
+            font-weight: 300;
+        }
+    }
+}
+
+//services
+#services {
+    .services-flex {
+        margin-bottom: 3rem;
+        text-align: center;
+        line-height: 30px;
+        h3 {
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+    }
+}
+
+//work
+#work {
+    width: 90%;
+    margin: 0 auto;
+    .work-flex {
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+//contact
+#contact {
+    width: 70%;
+    margin: 0 auto;
+    form {
+        .flexbox {
+            flex: 1;
+        }
+    }
+}
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3rem 0;
+}

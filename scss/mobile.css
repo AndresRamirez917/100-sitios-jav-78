@@ -1,0 +1,46 @@
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 2rem 0;
+}
+#mainheader .navbar ul {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: small;
+}
+#mainheader .navbar li {
+  text-align: center;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+#mainheader #showcase .showcase-text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about .about-flex {
+  display: block;
+}
+#about .about-flex .flexbox-1 {
+  margin-bottom: 2rem;
+}
+
+#services .services-flex {
+  display: block;
+}
+#services .services-flex .serflex-1 {
+  margin-bottom: 2rem;
+}
+
+#work .work-flex {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#work .work-flex > div {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=mobile.css.map */

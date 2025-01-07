@@ -1,0 +1,62 @@
+//mainheader
+#mainheader {
+    .navbar {      
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        ul {
+            display: block;
+            margin-top: 2rem;
+            text-align: center;
+            font-size: small;
+        }
+        li {
+            text-align: center;
+        }
+        .container {
+            display: block;
+        }
+    }
+    #showcase {
+        .showcase-text {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+//about
+#about {
+    .about-flex {
+        display: block;
+        .flexbox-1 {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//services
+#services {
+    .services-flex {
+        display: block;
+        .serflex-1 {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//work
+#work {
+    .work-flex {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .work-flex > div {
+        margin-bottom: 2rem;
+    }
+}
