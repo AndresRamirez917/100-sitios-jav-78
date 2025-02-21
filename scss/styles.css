@@ -194,6 +194,14 @@ form button:hover {
 #work .work-flex {
   margin-bottom: 3rem;
 }
+#work .work-flex .workflex-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+}
+#work .work-flex .workflex-1 img {
+  width: 100%;
+}
 
 #contact {
   width: 70%;

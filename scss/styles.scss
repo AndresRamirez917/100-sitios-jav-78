@@ -201,6 +201,14 @@ form {
     margin: 0 auto;
     .work-flex {
         margin-bottom: 3rem;
+        .workflex-1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 33%;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
