@@ -25,8 +25,8 @@ async function getdata2() {
         const box = document.createRange().createContextualFragment(`
             
              <div class="workflex-1">
-                    <img src="${element.strMealThumb}" alt="">
-                </div>
+                <img src="${element.strMealThumb}" alt="">
+             </div>
             
             `)
             const work_flex = document.querySelector(".work-flex");

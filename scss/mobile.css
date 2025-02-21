@@ -39,11 +39,17 @@
   margin-bottom: 2rem;
 }
 
+#work .work-flex > div {
+  margin-bottom: 2rem;
+}
 #work .work-flex {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-#work .work-flex > div {
-  margin-bottom: 2rem;
+#work .work-flex .workflex-1 {
+  width: 100%;
+}
+#work .work-flex .workflex-1 img {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

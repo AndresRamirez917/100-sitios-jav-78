@@ -54,12 +54,19 @@
 
 //work
 #work {
+    .work-flex > div {
+        margin-bottom: 2rem;
+    }
     .work-flex {
         display: block;
         margin: 0 auto;
         text-align: center;
+        .workflex-1 {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
     }
-    .work-flex > div {
-        margin-bottom: 2rem;
-    }
+
 }
