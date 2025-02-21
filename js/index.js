@@ -59,4 +59,9 @@ const btn_validar = document.getElementById("btn-validar").onclick = (e) => {
                  })
         }
     }
+    swal({
+        title: `Datos enviados satisfactoriamente`,
+        icon: "success",
+         })
+         namesArr.forEach(({id})=>document.getElementById(id).value = "")
 }
