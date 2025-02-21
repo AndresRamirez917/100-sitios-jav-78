@@ -34,3 +34,23 @@ async function getdata2() {
     })
 }
 getdata2()
+
+const btn_validar = document.getElementById("btn-validar").onclick = (e) => {
+    e.preventDefault();
+    const namesArr = [
+        {id:"name", name:"Name"},
+        {id:"email", name:"Email"},
+        {id:"fecha", name:"Fecha"},
+        {id:"hora", name:"Hora"},
+        {id:"mensaje", value:"mensaje"}
+    ]
+    for (let {id,value} of namesArr) {
+        const element = document.getElementById(id);
+        if(element.value.trim() === ""){
+            return swal({
+                title: `El campo ${name} no puede estar vacío`,
+                icon: "error",
+                 })
+        }
+    }
+}
