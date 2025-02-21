@@ -158,16 +158,25 @@ form {
     }
     .about-flex {
         width: 90%;
+        display: flex;
+        flex-wrap: wrap;
         margin: 0 auto;
         text-align: center;
         margin-top: 10rem;
-        gap: 150px;
-        h1 {
-            margin-bottom: 2rem;
-            font-size: 4rem;
-        }
-        h4 {
-            font-weight: 300;
+        gap: 10px;
+        .flexbox-1 {
+            margin: 0 auto;
+            width: 25%;
+            img {
+                width: 100%;
+            }
+            h1 {
+                margin-bottom: 2rem;
+                font-size: 2rem;
+            }
+            h4 {
+                font-weight: 300;
+            }
         }
     }
 }

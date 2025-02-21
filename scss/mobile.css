@@ -27,6 +27,9 @@
 }
 #about .about-flex .flexbox-1 {
   margin-bottom: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
 
 #services .services-flex {

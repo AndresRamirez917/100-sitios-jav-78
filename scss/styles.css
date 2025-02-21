@@ -154,16 +154,25 @@ form button:hover {
 }
 #about .about-flex {
   width: 90%;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
   margin-top: 10rem;
-  gap: 150px;
+  gap: 10px;
 }
-#about .about-flex h1 {
+#about .about-flex .flexbox-1 {
+  margin: 0 auto;
+  width: 25%;
+}
+#about .about-flex .flexbox-1 img {
+  width: 100%;
+}
+#about .about-flex .flexbox-1 h1 {
   margin-bottom: 2rem;
-  font-size: 4rem;
+  font-size: 2rem;
 }
-#about .about-flex h4 {
+#about .about-flex .flexbox-1 h4 {
   font-weight: 300;
 }
 
